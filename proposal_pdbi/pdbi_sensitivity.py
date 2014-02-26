@@ -14,9 +14,9 @@ from bisect import bisect_left, bisect_right
 #
 # all you need to change below!
 #
-winter = True       # 0 for summer, 1 for winter
+winter = False       # 0 for summer, 1 for winter
 nu = 260.3E9        # frequency of line to observe in Hz
-Na = 6              # number of antennas (5 winter, 6 summer atm)
+Na = 5              # number of antennas (6 winter, 5 summer atm)
 Nc = 2              # number of configurations/tracks
 Ton = 5             # on-source integration time
                     # observation time is ~1.6*Ton
@@ -25,7 +25,7 @@ Np = 2              # Number of polarizations with the same setup
 ########################################################################
 ########################################################################
 #                           CONSTANTS
-# double check against each new announcment, this is from 2013 Summer Call
+# double check against each new announcment, this is from 2014 Summer Call
 band_limits = array([[80, 116],
                      [129, 174],
                      [201, 267],
